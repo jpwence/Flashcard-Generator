@@ -1,0 +1,1 @@
+{"text":"Queen is a party at smartbar","cloze":"Queen","clozeDeleted":"_____ is a party at smartbar","type":"cloze"};{"text":"A cactus can be green","cloze":"cactus","clozeDeleted":"A _____ can be green","type":"cloze"};

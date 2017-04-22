@@ -1,0 +1,1 @@
+{"front":"How many fingers do I have?","back":"10","type":"basic"};{"front":"What is ryans last name?","back":"Bowman","type":"basic"};{"front":"How many legs on a spider?","back":"8","type":"basic"};
