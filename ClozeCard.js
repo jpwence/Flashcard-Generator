@@ -2,7 +2,6 @@ var fs = require("fs");
 
 module.exports = ClozeCard;
 
-// export for access
 function ClozeCard(text, cloze) {
     this.text = text;
     this.cloze = cloze;
@@ -14,7 +13,7 @@ function ClozeCard(text, cloze) {
             clozeDeleted: this.clozeDeleted,
             type: "cloze"
         };
-        // add card to clozequestion.txt
+
         fs.appendFile("clozequestions.txt", JSON.stringify(data) + ';', "utf8", function(error) {
             if (error) {
                 console.log(error);
